@@ -15,7 +15,7 @@ body{
     overflow: hidden;
     border-radius: 20px;
 }
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 600px) {
     img{
         width: 250px;
     }
@@ -24,7 +24,7 @@ body{
 
     }
 }
-@media screen and (max-height: 550px) {
+@media screen and (max-height: 600px) {
     img{
         height: 250px;
     }
@@ -36,3 +36,4 @@ body{
         height: 80vh;
     }
 }
+
