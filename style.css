@@ -5,9 +5,34 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    height: 50vh;
 }
 .container{
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+}
+@media screen and (max-width: 550px) {
+    img{
+        width: 250px;
+    }
+    .container{
+        width: 250px;
+
+    }
+}
+@media screen and (max-height: 550px) {
+    img{
+        height: 250px;
+    }
+    .container{
+        height: 250px;
+
+    }
+    body{
+        height: 80vh;
+    }
 }
